@@ -4,6 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+// IIFE here with jQuery
 (function($) {
 
 	var	$window = $(window),
@@ -86,7 +87,6 @@
 		$menu
 			.appendTo($body)
 			.on('click', function(event) {
-
 				event.stopPropagation();
 
 				// Hide.
@@ -99,6 +99,7 @@
 					event.preventDefault();
 					event.stopPropagation();
 					event.stopImmediatePropagation();
+          console.log('hello')
 
 					// Hide.
 						$menu._hide();
