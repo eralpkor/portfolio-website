@@ -3029,7 +3029,7 @@ input, select, textarea {
 					border-radius: 5px 5px 0 0;
           width: 100%;
           /* eralp */
-          height: 315px;
+          height: 400px;
 				}
 
 		@media screen and (max-width: 980px) {
@@ -4164,6 +4164,9 @@ input, select, textarea {
     border-radius: 0%;
   }
 
-  /* #norman {
-    width: 100%; 
-  } */
+@media screen and (max-width: 1073px) {
+  .features article .image img {
+    border-radius: 5px 5px 0 0;
+    height: 100%;
+  }
+}
