@@ -3027,7 +3027,9 @@ input, select, textarea {
 
 				.features article .image img {
 					border-radius: 5px 5px 0 0;
-					width: 100%;
+          width: 100%;
+          /* eralp */
+          height: 315px;
 				}
 
 		@media screen and (max-width: 980px) {
@@ -4161,3 +4163,7 @@ input, select, textarea {
   .wrapper.spotlight .image img {
     border-radius: 0%;
   }
+
+  /* #norman {
+    width: 100%; 
+  } */
