@@ -3029,7 +3029,7 @@ input, select, textarea {
 					border-radius: 5px 5px 0 0;
           width: 100%;
           /* eralp */
-          height: 400px;
+          /* height: 400px; */
 				}
 
 		@media screen and (max-width: 980px) {
